@@ -1,0 +1,40 @@
+{
+  "name": "visibilityReactDemo",
+  "version": "0.1.0",
+  "description": "VisibilityJS React App Demo",
+  "main": "index.js",
+  "repository": "https://github.com/olegbilyk/visibilityReactDemo.git",
+  "author": "olegbilyk <oleg.bilyk.pro@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://olegbilyk.github.io/visibilityReactDemo",
+  "private": false,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "moment": "^2.22.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "visibilityjs": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "8",
+    "eslint": "4.x",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "1.13.7"
+  }
+}

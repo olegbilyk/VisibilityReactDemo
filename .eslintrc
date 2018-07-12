@@ -1,0 +1,66 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "impliedStrict": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended",
+        "prettier",
+        "prettier/react"
+    ],
+    "plugins": ["react", "jsx-a11y", "import", "prettier"],
+    "rules": {
+        "camelcase": 1,
+        "no-restricted-imports": 1,
+        "max-nested-callbacks": 1,
+        "space-before-function-paren": [2, "never"],
+        "no-console": [1, { "allow": ["warn", "error"] }],
+        "no-undef": 1,
+        "no-unused-vars": [2, { "vars": "local", "args": "after-used", "ignoreRestSiblings": false }],
+        "no-duplicate-imports": 2,
+        "max-len": [1, 120],
+        "id-match": [1, "^[a-zA-Z0-9_-]*$"],
+        "react/display-name": 0,
+        "react/prop-types": 1,
+        "react/jsx-no-undef": [2, { "allowGlobals": false }],
+        "react/no-deprecated": 1,
+        "react/no-unused-state": 2,
+        "react/no-will-update-set-state": 2,
+        "react/no-access-state-in-setstate": 1,
+        "react/no-array-index-key": 2,
+        "react/prefer-stateless-function": [1, { "ignorePureComponents": true }],
+        "react/jsx-boolean-value": [1, "never"],
+        "react/jsx-curly-brace-presence": [1, "never"],
+        "prettier/prettier": 1,
+        "prefer-const": [
+            2,
+            {
+                "destructuring": "any",
+                "ignoreReadBeforeAssign": true
+            }
+        ],
+        "no-const-assign": 2
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "16.4.1",
+            "flowVersion": "16.4.1"
+        }
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "mocha": true
+    }
+}

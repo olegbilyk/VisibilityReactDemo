@@ -1,0 +1,23 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "short_name": "Visibility React Demo",
+  "name": "VisibilityJS React App Demo",
+  "description": "https://github.com/ai/visibilityjs",
+  "icons": [
+    {
+        "src": "./favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },
+    {
+        "src": "./favicon/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
