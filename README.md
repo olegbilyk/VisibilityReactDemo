@@ -1,9 +1,6 @@
 # visibilityReactDemo
 VisibilityJS React App Demo
 
-## Demo
-[Demo](https://github.com/olegbilyk/visibilityReactDemo/build/index.html)
-
 #### Installation 
 
 ```
